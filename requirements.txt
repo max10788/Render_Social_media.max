@@ -6,7 +6,7 @@ gunicorn==21.2.0
 # Web & HTTP
 aiohttp==3.9.1
 httpx==0.23.3
-python-multipart==0.0.6
+python-multipart==0.0.22
 email-validator==2.1.0
 jinja2==3.1.2
 requests==2.31.0
@@ -77,3 +77,4 @@ attrs>=21.2.0
 black==23.3.0
 flake8==6.0.0
 mypy==1.4.1
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
