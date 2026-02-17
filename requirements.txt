@@ -62,7 +62,7 @@ structlog==23.1.0
 loguru==0.7.2
 
 # Security
-cryptography==41.0.1
+cryptography==46.0.5
 python-jose==3.3.0
 setuptools<60.0
 
